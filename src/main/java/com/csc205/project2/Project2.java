@@ -34,9 +34,7 @@ public class Project2 {
         The following code works with the code given.
          */
 
-        Sphere sphere = new Sphere(2.0);
-        System.out.println(sphere);
+        Sphere sphere2 = new Sphere(2.0);
+        System.out.println(sphere2);
     }
-
 }
-
