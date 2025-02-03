@@ -58,8 +58,10 @@ class Cone extends ThreeDimensionalShape {
         final StringBuilder sb = new StringBuilder("Cone {");
         sb.append("height=").append(height);
         sb.append(", radius=").append(radius);
+        sb.append(", surface area=").append(surfaceArea());
         sb.append(", volume=").append(volume());
         sb.append('}');
         return sb.toString();
     }
 }
+

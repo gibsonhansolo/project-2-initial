@@ -5,6 +5,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ *  Prompt used with ClaudeAi
+ *
+ *  Generate following test based on CubeTest <pasted entire Test file>
+ *
+ */
+
 public class ConeTest {
 
     private Cone cone;
@@ -53,7 +60,7 @@ public class ConeTest {
 
     @Test
     public void testToString() {
-        String expected = "Cone {height=6.0, radius=4.0, volume=100.53096491487338}";
+        String expected = "Cone {height=6.0, radius=4.0, surface area=140.8828696505485, volume=100.53096491487338}";
         System.out.println(cone.radius);
         assertEquals(expected, cone.toString());
     }
